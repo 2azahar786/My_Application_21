@@ -9,7 +9,6 @@ import { Lesson } from './lesson/lesson.entity';
 import { LessonType } from './lesson/lesson.type';
 
 
-
 @Module({
    imports: [
     TypeOrmModule.forRoot({
@@ -29,5 +28,6 @@ import { LessonType } from './lesson/lesson.type';
   ],
   controllers: [],
   providers: []
-})
+});
+
 export class AppModule {}
